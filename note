@@ -1,0 +1,51 @@
+config-center3344:
+    springcloud-config 服务端  统一配置管理, 链接github,中央仓库地址,统一管理yml文件
+
+config-client3355:
+    springcloud-config的测试客户端   测试是否可以同过github统一管理,
+    有一个缺点, github上的yml文件每次被修改,这里就得手动的去发一个POST更新yml
+
+fegin-order80:
+    fegin调用的测试客户端
+
+****
+feign-hystrix-order80:
+    服务降级的使用方式
+    降级不是熔断哈
+
+*******
+consumer-hystrix-dashboard9001:
+    监控的服务端,谁要被监控就登录这个网站,输入被监控的地址
+    像是Essql一样, 你需要看谁就输入谁的网址
+
+eureka-server7001:
+    eureka服务端
+
+eureka-server7002:
+    eureka服务端2,配合7001做集群
+
+gateway9527:
+    gateway 方式的网关配置,可在这里配置拦截用户
+
+*******
+hystrix-payment8001:
+    服务熔断和降级的示例使用
+
+provider-payment8001:
+    最初测试使用,注册进eureka的单纯小微服务
+
+provider-payment8002:
+    最初测试使用,配合provider-payment8001注册进eureka的集群小微服务
+
+
+
+
+
+
+
+
+
+
+
+
+

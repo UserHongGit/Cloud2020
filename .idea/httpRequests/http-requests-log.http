@@ -1,0 +1,166 @@
+POST http://localhost:3355/actuator/refresh
+
+<> 2020-08-31T063658.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T072619.500.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T072400.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T072358.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T072355.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment2/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T072346.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment2/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T071131.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment2/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T071058.200.json
+
+###
+
+GET http://localhost:8888/payment1/get/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T071042.404.json
+
+###
+
+GET http://localhost:8001/payment/discovery
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T055256.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044236.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044233.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044231.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044228.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044224.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044220.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T044009.500.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T043739.200.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T043726.200.json
+
+###
+
+GET http://localhost:7001/cloud-payment-service/payment/get/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T023519.404.json
+
+###
+
+GET http://localhost:8888/consumer/payment/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-22T023452.200.json
+
+###
+

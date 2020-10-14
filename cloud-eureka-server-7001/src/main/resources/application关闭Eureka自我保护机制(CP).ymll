@@ -1,0 +1,19 @@
+server:
+  port: 7001
+eureka:
+  instance:
+#    hostname: localhost
+    hostname: eureka7001.com   #模拟不同的ip
+  client:
+#    false表示不向注册中心注册自己, 注册中心不需要向自己注册自己
+    register-with-eureka: false
+#    false表示自己端就是注册中心, 我的职责任就是维护服务实例
+    fetch-registry: false
+    service-url:
+#      设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://eureka7002.com:7002/eureka/
+  server:
+    #关闭Eureka自我保护机制,保证不可用微服务及时删除
+    enable-self-preservation: false
+    #两秒钟没反应就删除微服务
+    eviction-interval-timer-in-ms: 2000

@@ -1,0 +1,58 @@
+2020-10-02 17:01:07,833 INFO initializing Raft sub-system
+
+2020-10-02 17:01:07,834 INFO raft notifier started
+
+2020-10-02 17:01:07,836 INFO finish loading all datums, size: 0 cost 3 ms.
+
+2020-10-02 17:01:07,839 INFO cache loaded, datum count: 0, current term: 0
+
+2020-10-02 17:01:07,839 INFO finish to load data from disk, cost: 6 ms.
+
+2020-10-02 17:01:07,768 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2020-10-02 17:01:07,841 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-10-02 17:01:07,843 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-10-02 17:01:07,880 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-10-02 17:01:09,371 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-10-02 17:01:12,765 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-10-02 17:01:12,765 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-10-02 17:01:12,765 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-10-02 17:01:15,781 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-10-02 17:03:51,893 INFO initializing Raft sub-system
+
+2020-10-02 17:03:51,894 INFO raft notifier started
+
+2020-10-02 17:03:51,894 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2020-10-02 17:03:51,895 INFO cache loaded, datum count: 0, current term: 0
+
+2020-10-02 17:03:51,895 INFO finish to load data from disk, cost: 2 ms.
+
+2020-10-02 17:03:51,897 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-10-02 17:03:51,829 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2020-10-02 17:03:51,902 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-10-02 17:03:51,935 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-10-02 17:03:53,210 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-10-02 17:03:56,825 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-10-02 17:03:56,825 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2020-10-02 17:03:56,825 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2020-10-02 17:03:56,906 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"10.254.127.201:8848","leaderDueMs":15133,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+
+2020-10-02 17:03:59,925 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"10.254.127.201","key":"10.254.127.201:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
